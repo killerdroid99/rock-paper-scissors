@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Shizuru", serif;
+}
+
+body {
+	color: rgb(252, 233, 233);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(./polygon-scatter-haikei.svg);
+	background-size: cover;
+}
+
+.heading {
+	font-size: 4rem;
+	display: flex;
+	justify-content: center;
+}
+
+.choice {
+	height: 15rem;
+	width: 15rem;
+	border: 2px solid white;
+	font-size: 11rem;
+	margin: 5rem 3rem;
+	text-align: center;
+	border-radius: 100% 150%;
+	cursor: pointer;
+	background-color: rgb(21, 24, 27);
+}
+
+.choice:hover {
+	box-shadow: 0px 0px 10px white;
+}
+
+.choice-array {
+	display: flex;
+	align-items: center;
+}
+
+.score-head {
+	display: flex;
+	font-size: 2.5rem;
+}
+
+.score-title {
+	margin: 5rem 3rem;
+}
+
+#result_statement {
+	font-size: 2.5rem;
+	color: rgb(252, 233, 233);
+	height: 50px;
+	text-align-last: center;
+	height: 10vh;
+}
+
+.score {
+	display: flex;
+	font-size: 5rem;
+	margin-top: -80px;
+}
+
+#button {
+	color: rgb(255, 11, 11);
+	margin: 40px;
+	border: 2px solid;
+	border-radius: 15px 5px;
+	height: 45px;
+	width: 160px;
+	font-size: 1.5rem;
+	text-align: center;
+	cursor: pointer;
+	visibility: hidden;
+}

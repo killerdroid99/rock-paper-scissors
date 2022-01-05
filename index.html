@@ -5,10 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div class="heading">Rock, Paper or Scissors??</div>
+
+    <div class="score-head">
+        <div id="player" class="score-title">Player</div>
+        <div id="comp" class="score-title">Computer</div>
+    </div>
+    <div class="score">
+        <div id="player-score-value"></div>
+        &nbsp:&nbsp
+        <div id="comp-score-value"></div>
+    </div>
+
+    <div class="choice-array">
+        <div id="rock" class="choice">🪨</div>
+        <div id="paper" class="choice">📃</div>
+        <div id="scissors" class="choice">✂️</div>
+    </div>
+
+    <div id="result_statement">Ready?</div>
+    <div id="button" onClick="window.location.reload();">Play again?</div>
 
 </body>
 <script src="app.js"></script>
